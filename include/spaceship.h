@@ -8,7 +8,7 @@
 
 #define SPACESHIP_ACCELERATION 20.0f
 #define SPACESHIP_ANGULAR_VELOCITY 2*M_PI
-#define SPACESHIP_MAX_SPEED 60.0f
+#define SPACESHIP_MAX_SPEED 100.0f
 #define SPACESHIP_MIN_SPEED 0.0f
 
 typedef struct Spaceship {

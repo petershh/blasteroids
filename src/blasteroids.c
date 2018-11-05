@@ -1,5 +1,4 @@
 #include "blasteroids.h"
-#include <stdio.h>
 
 int main(/*int argc, char const *argv[]*/) {
   al_init();
@@ -21,7 +20,7 @@ int main(/*int argc, char const *argv[]*/) {
   s.speed = 0;
   s.accelerating = 0;
   s.lifes = 3;
-  s.color = al_map_rgb(255,255,255);
+  s.color = al_map_rgb(0,255,0);
 
   ALLEGRO_EVENT_QUEUE *q = al_create_event_queue();
   al_register_event_source(q, al_get_keyboard_event_source());

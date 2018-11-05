@@ -9,7 +9,7 @@
 
 #define FPS 60
 
-typedef enum Objects{
+/*typedef enum Objects{
   SPACESHIP,
   ASTEROID,
   BLAST
@@ -27,6 +27,8 @@ typedef struct GameObject{
 } GameObject;
 
 void detect_overlap();
+*/
+
 
 float clamp(float val, float min_val, float max_val);
 float repeat(float val, float module);
